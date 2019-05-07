@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+.counterContainer {
+  width: 400px;
+  height: 300px;
+  margin-top: 100px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  .LeNumber {
+    font-size: 2em;
+  }
+  .buttons {
+    width: 350px;
+    height: 40%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      border: 1px black solid;
+      transition: 0.2s;
+      &:hover {
+        cursor: pointer;
+        background-color: blueviolet;
+      }
+    }
+  }
+  .comment {
+    padding: 10px;
+    text-align: center;
+  }
+}
